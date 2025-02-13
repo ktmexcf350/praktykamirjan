@@ -1,0 +1,125 @@
+h1 {
+    text-align: center;
+    background-color: transparent;
+  color: white;
+}
+
+header{
+    background-color: transparent;
+}
+body { 
+background-color: rgb(129, 129, 129);
+background-image: linear-gradient(rgb(0, 0, 0), whitesmoke);
+min-height: 100%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+}
+
+footer{
+background-color: transparent;
+color: transparent;
+}
+
+div {
+    
+    background-color: transparent;
+    padding: 10px;
+  }
+  
+form{
+text-align: center;
+border: 4mm ridge rgba(100, 100, 91, 0.6);
+}
+
+
+label {
+    display: block;
+    margin-top: 1em;
+    color: white;
+    font-style: italic;
+  }
+
+
+  fieldset:invalid ~ fieldset {
+    display: none;
+  }
+ /* 
+  form:invalid button {
+    opacity: 0.3;
+    pointer-events: none;
+  }
+*/
+
+
+
+  .success {
+    background-color:rgb(230, 230, 230);
+    color: black;
+    border: none;
+    outline: 2px solid green;
+    border-radius: 5px;
+  }
+
+  
+#error1{
+background-color: transparent;
+}
+
+#error2 {
+background-color: transparent;
+}
+
+#php {
+  background-color: transparent;
+}
+
+
+
+.error {
+    background-color:rgb(230, 230, 230);
+    color: black;
+    border: none;
+    outline: 2px solid red;
+    border-radius: 5px;
+  }
+
+  
+
+
+button {
+    width: 70px;
+    background-color:whitesmoke;
+    font-size: 10px;
+    color: black;
+    border-radius: 10px;
+    }
+
+    input {
+        background-color: rgb(230, 230, 230);
+        color: black;
+        width: 45%;
+        padding: 10px;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
