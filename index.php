@@ -1,3 +1,6 @@
+<?php
+//include 'dbconnection.php';
+ ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -38,6 +41,10 @@
             <button type="submit">Prześlij dane</button>
         </div>
     </form>
+    <?php
+    echo (int)isset($mysqli)
+
+    ?>
     <!-- <div id="error1"></div>
         <div id="error2"></div>
         <div id="php"></div>        

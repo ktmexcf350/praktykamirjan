@@ -24,7 +24,6 @@ fetch('api.php', {
   })
   .catch(error => console.error('błąd:', error));
 }
- 
 
   
 
