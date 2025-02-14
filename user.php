@@ -162,7 +162,7 @@ class userPhp
     $sql = "INSERT INTO id(imie, nazwisko, email, password, create_date, update_date) VALUES('$this->imie', '$this->nazwisko', '$this->email', '$this->password','$local_create_date', '$local_update_date')";
          
     
-
+        
         if($mysqli->query($sql) === TRUE) {
             return "New record created successfully";
         } 

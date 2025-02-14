@@ -1,6 +1,6 @@
 <?php    
-include 'dbconnection.php';
-include 'user.php';
+//require_once 'dbconnection.php';
+require_once 'user.php';
 $response = [
     'imie' => isset($_POST['imie']) ? $_POST['imie'] : false,
     'nazwisko' => isset($_POST['nazwisko']) ? $_POST['nazwisko'] : false,
