@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>register new user</h1>
+    <form id="loginForm" method="POST">
+        <div>
+        <label for="imie">imie:</label>
+        <input id="imie" name="imie" type="text" autocomplete="imie" required autofocus><br>
+        </div>
+
+       <div>
+        <label for="nazwisko">nazwisko:</label>
+        <input id="nazwisko" name="nazwisko" type="text" autocomplete="nazwisko" required autofocus><br>
+        </div>
+
+        <div>
+            <label for="email">email:</label>
+            <input id="email" name="email" type="email" autocomplete="email" required autofocus><br>
+        </div>
+
+        <div>
+            <label for="password">password:</label>
+            <input id="password" name="password" type="text" autocomplete="current-password" required>
+            <br>
+            <button type="submit" value="Zaloguj" id="button">Zaloguj</button>
+
+        </div>
+    </form>
+    <!-- <script>
+      document.addEventListener("DOMContentLoaded", function() {
+
+        // const users = new Array();
+        const loginForm = document.getElementById('loginForm');
+        loginForm.addEventListener('submit', function (e) {
+            e.preventDefault();
+      
+            const formData = new FormData(this);
+      
+            doRequest(formData);
+          });
+        })
+      </script> -->
+
+
+</body>
+
+</html>
